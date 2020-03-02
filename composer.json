@@ -1,0 +1,21 @@
+{
+    "name": "kadevland/domain-driven-design-interfaces",
+    "description": "Interfaces to help for implementation of domain driven design",
+    "keywords": [ "interface", "interfaces", "php", "ddd", "domain driven design", "domain-driven-design",
+                  "value object","value type","entity","entities","aggregate","aggregateroot",
+                  "aggregate root","domain event"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaosland",
+            "email": "kaosland@kadevland.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "kadev\\DDD\\interfaces\\": "src/"
+        }
+    }
+}
