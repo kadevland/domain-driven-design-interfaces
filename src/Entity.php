@@ -21,7 +21,7 @@ interface Entity
     /**
      * Checks whether the Entity represented by this object equals to another Entity.
      * 
-     * @param Entity 
+     * @param Entity $other
      * @return bool 
      */
     public function equals(Entity $other):bool;
